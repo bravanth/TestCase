@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.training.pom.UpdateProfilePOM;
 
 
-public class Update_Profile extends LoginTests{
+public class Update_Profile {
 	
 
 	public UpdateProfilePOM updateprofilePOM;

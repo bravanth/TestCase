@@ -30,6 +30,6 @@ public class Update_Password extends LoginTests{
 		updatepwdPOM.EnterConfirmNewPassword("Password@12345");
 		updatepwdPOM.clickSaveChangesButton();
 		updatepwdPOM.passwordUpdateConfirmation("Your password has been updated.");
-		screenShot.captureScreenShot("First");
+		screenShot.captureScreenShot("Third");
 	}
 }

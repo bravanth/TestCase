@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.Update_Profile">
+      <class name="com.training.sanity.tests.RETC_035_AddUsers">
         <methods>
           <include name="setUpBeforeClass"/>
           <include name="tearDown"/>
-          <include name="updateProfile"/>
+          <include name="AddUsers"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.Update_Profile -->
+      </class> <!-- com.training.sanity.tests.RETC_035_AddUsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

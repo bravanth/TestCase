@@ -25,6 +25,6 @@ public class Logout extends LoginTests{
 		logoutPOM = new LogoutPOM(driver);
 		Thread.sleep(3000);
 		logoutPOM.clickLogout();
-		screenShot.captureScreenShot("First");
+		screenShot.captureScreenShot("Second");
 	}
 }

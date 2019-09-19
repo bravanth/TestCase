@@ -14,7 +14,7 @@ public class LoginPOM {
 		//initialization of factory - the driver factories.
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath = "//a[@href='http://realestate.upskills.in/my-profile/']")
+	@FindBy(xpath = "//a[@class='sign-in']")
 	private WebElement signIn;
 	
 	@FindBy(id="user_login")
